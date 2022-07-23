@@ -31,13 +31,36 @@ body {
   height: 70vh;
   width: 6vw;
   background-color: green;
+  background: linear-gradient(
+    to right,
+    #9de757 4%,
+    #d5f97f 6%,
+    #9de757 7%,
+    #9de757 14%,
+    #9de757 14%,
+    #74bf2e 15%,
+    #74bf2e 17%,
+    #9de757 20%,
+    #74bf2e 23%,
+    #74bf2e 70%,
+    #74bf2e 70%,
+    #578220 71%,
+    #578220 72%,
+    #74bf2e 73%,
+    #74bf2e 75%,
+    #527e23 86%
+  );
+  border: 1px solid #43a047;
+  box-shadow: 5px 0px 3px #2e7d32 inset;
 }
 
 .message {
+  font-family: "Press Start 2P", cursive;
+  text-shadow: -2px 0 0 #931780, -4px 0 0 #9e2424, 2px 0 0 #4e81bf,
+    4px 0 0 #4405fc;
   position: fixed;
   z-index: 10;
-  height: 10vh;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 100;
   color: black;
   top: 12vh;
@@ -48,16 +71,17 @@ body {
 }
 
 .score {
+  font-family: "Press Start 2P", cursive;
   position: fixed;
   z-index: 10;
   height: 10vh;
-  font-size: 10vh;
-  font-weight: 100;
-  color: goldenrod;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
   top: 0;
   left: 0;
 }
 
 .score_val {
-  color: gold;
+  color: rgb(106, 5, 169);
 }
